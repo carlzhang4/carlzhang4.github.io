@@ -72,8 +72,8 @@ sections:
           - publication
         exclude_featured: false
       count: 0
-    # design:
-    #   view: citation
+    design:
+      view: citation
   # - block: collection
   #   id: talks
   #   content:
