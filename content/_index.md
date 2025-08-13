@@ -40,6 +40,17 @@ sections:
         I am actively looking for students/engineers. If you are interested, feel free to email me at carlzhang4@zju.edu.cn. 😃
     design:
       columns: '1'
+    
+  - block: markdown
+  content:
+    title: '🧑‍🎓 Students'
+    subtitle: ''
+    text: |-
+      Ziyu Song, co-advised with Prof. Zeke Wang
+      Xuzheng Chen, co-advised with Prof. Zeke Wang
+  design:
+    columns: '1'
+
   # - block: collection
   #   id: papers
   #   content:
