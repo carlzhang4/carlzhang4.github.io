@@ -1,5 +1,5 @@
 ---
-title: '$$FpgaNIC$$: An $$FPGA-based$$ versatile 100gb $$SmartNIC$$ for $$GPUs$$'
+title: 'FpgaNIC: An FPGA-based versatile 100gb SmartNIC for GPUs'
 authors:
 - Zeke Wang
 - Hongjing Huang

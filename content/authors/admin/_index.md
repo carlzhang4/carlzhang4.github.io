@@ -169,4 +169,4 @@ education:
 
 ## About Me
 
-Jie Zhang.
+I am a ZJU 100 Young Professor (平台“百人计划”研究员) in the School of Software Technology, Zhejiang University (ZJU). I obtained my PhD from the College of Computer Science and Technology at ZJU in June 2025, supervised by Prof. Zeke Wang.
