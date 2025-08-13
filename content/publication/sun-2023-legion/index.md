@@ -1,5 +1,5 @@
 ---
-title: 'Legion: Automatically Pushing the Envelope of $$Multi-GPU$$ System for $$Billion-Scale$$$$GNN$$
+title: 'Legion: Automatically Pushing the Envelope of Multi-GPU System for Billion-Scale GNN
   Training'
 authors:
 - Jie Sun

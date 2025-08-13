@@ -18,5 +18,5 @@ publishDate: '2025-08-13T09:25:28.030152Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the 50th Annual International Symposium on Computer
-  Architecture*'
+  Architecture (ISCA)*'
 ---

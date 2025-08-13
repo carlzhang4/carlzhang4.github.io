@@ -20,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: ZJU Young 100 Professor
+role: ZJU 100 Young Professor
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Zhejiang University
+  - name: Zhejiang University, School of Software Technology
     url: https://www.zju.edu.cn/
 
 # Social network links
@@ -54,7 +54,7 @@ interests:
 
 education:
   - area: PhD
-    institution: Zhejiang University
+    institution: Zhejiang University 2020-2025
     date_start: 2020-09-01
     date_end: 2025-06-30
     summary: |
@@ -63,7 +63,7 @@ education:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
   - area: BSc
-    institution: Zhejiang University
+    institution: Zhejiang University 2016-2020
     date_start: 2016-09-01
     date_end: 2020-06-30
     summary: |
