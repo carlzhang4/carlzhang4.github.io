@@ -42,14 +42,14 @@ sections:
       columns: '1'
     
   - block: markdown
-  content:
-    title: '🧑‍🎓 Students'
-    subtitle: ''
-    text: |-
-      Ziyu Song, co-advised with Prof. Zeke Wang
-      Xuzheng Chen, co-advised with Prof. Zeke Wang
-  design:
-    columns: '1'
+    content:
+      title: '🧑‍🎓 Students'
+      subtitle: ''
+      text: |-
+        Ziyu Song, co-advised with Prof. Zeke Wang
+        Xuzheng Chen, co-advised with Prof. Zeke Wang
+    design:
+      columns: '1'
 
   # - block: collection
   #   id: papers
