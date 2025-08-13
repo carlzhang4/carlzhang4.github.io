@@ -1,5 +1,5 @@
 ---
-title: Understanding Routable $$PCIe$$ Performance for Composable Infrastructures
+title: Understanding Routable PCIe Performance for Composable Infrastructures
 authors:
 - Wentao Hou
 - Jie Zhang
