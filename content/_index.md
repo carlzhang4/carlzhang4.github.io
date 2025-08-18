@@ -37,7 +37,18 @@ sections:
       text: |-
         My research interests is to build advanced computing systems for both traditional workloads (e.g., Cloud Infrastructure and LLMs) and emerging workloads (e.g., Quantum Computer). 
         
-        I am actively looking for students/engineers. If you are interested, feel free to email me at carlzhang4@zju.edu.cn. 😃
+    design:
+      columns: '1'
+  
+  - block: markdown
+    content:
+      title: '📣 Recruit ‘
+      subtitle: ''
+      text: |-
+        
+        I am actively looking for students/engineers. If you are interested, feel free to email me at carlzhang4@zju.edu.cn. 😄
+
+        欢迎对网络、系统、硬件有基础或感兴趣的同学联系我，期待一起进步QAQ
     design:
       columns: '1'
     
@@ -74,6 +85,15 @@ sections:
       count: 0
     design:
       view: citation
+  
+  - block: markdown
+    content:
+      title: '🎮 Hobby'
+      subtitle: ''
+      text: |-
+        I have four lovely cats and a diamond rank in LOL Ionia Server. I also enjoy Pubg, many 3A games and camping. Hope we can enjoy these in the spare time of research.
+    design:
+      columns: '1'
   # - block: collection
   #   id: talks
   #   content:

@@ -51,6 +51,7 @@ interests:
   - Networked Systems
   - FPGAs
   - SmartNICs
+  - Processing In Memory
 
 education:
   - area: PhD
