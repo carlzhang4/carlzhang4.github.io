@@ -82,7 +82,7 @@ sections:
       title: '🎮 Hobby'
       subtitle: ''
       text: |-
-        I have four lovely cats and a diamond rank in LOL Ionia Server. I also enjoy Pubg, many 3A games and camping. Hope we can enjoy these in the spare time of research.
+        I have four lovely cats and a diamond rank in LOL Ionia server. I also like pubg, many 3A games and camping. Hope we can enjoy these in the spare time of research.
     design:
       columns: '1'
   # - block: collection
