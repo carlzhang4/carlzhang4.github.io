@@ -45,7 +45,6 @@ sections:
       title: '📣 Recruit ‘
       subtitle: ''
       text: |-
-        
         I am actively looking for students/engineers. If you are interested, feel free to email me at carlzhang4@zju.edu.cn. 😄
 
         "欢迎对网络、系统、硬件有基础或感兴趣的同学联系我，期待一起进步QAQ"
