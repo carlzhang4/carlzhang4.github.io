@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>张 Carl | Academic Homepage</title>
+    <meta
+      name="description"
+      content="个人学术主页，展示研究方向、论文发表、教学与联系方式。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Source+Sans+3:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top">Carl Zhang</a>
+        <nav aria-label="主导航">
+          <ul class="nav-list">
+            <li><a href="#about">简介</a></li>
+            <li><a href="#research">研究</a></li>
+            <li><a href="#publications">论文</a></li>
+            <li><a href="#teaching">教学</a></li>
+            <li><a href="#contact">联系</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Academic Homepage</p>
+            <h1>张 Carl</h1>
+            <p class="subtitle">
+              研究方向：机器学习与数据驱动方法。关注可解释 AI、时序建模与科研应用。
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#publications">查看论文</a>
+              <a class="btn" href="https://github.com/carlzhang4" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+          <aside class="profile-card" aria-label="个人信息">
+            <h2>Profile</h2>
+            <ul>
+              <li><strong>Affiliation:</strong> Your University / Lab</li>
+              <li><strong>Email:</strong> your.name@university.edu</li>
+              <li><strong>Office:</strong> Building A, Room 301</li>
+              <li><strong>CV:</strong> <a href="#" aria-label="下载简历">Download PDF</a></li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container narrow">
+          <h2>简介</h2>
+          <p>
+            我是 Carl，目前从事与机器学习相关的研究。这个主页用于集中展示论文、项目、教学与服务信息。你可以在这里快速了解我的工作重点、最新成果和可复现代码。
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="research">
+        <div class="container">
+          <h2>研究方向</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>可解释机器学习</h3>
+              <p>研究模型可解释性与可靠性评估方法，提升 AI 在关键场景下的可用性。</p>
+            </article>
+            <article class="card">
+              <h3>时序数据建模</h3>
+              <p>面向复杂动态系统，探索鲁棒时序预测、异常检测与表示学习技术。</p>
+            </article>
+            <article class="card">
+              <h3>科研自动化工具</h3>
+              <p>构建数据分析与实验管理流程，提升科研效率与实验复现质量。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="publications">
+        <div class="container">
+          <div class="section-head">
+            <h2>发表论文</h2>
+            <p>建议按时间倒序维护，保留 DOI / PDF / Code 链接。</p>
+          </div>
+
+          <ol class="pub-list">
+            <li>
+              <article class="pub-item">
+                <h3>
+                  Paper Title One: An Academic-Style Template for Personal Homepage
+                </h3>
+                <p class="authors"><strong>Carl Zhang</strong>, Coauthor A, Coauthor B</p>
+                <p class="meta">Conference Name (CCF A), 2026</p>
+                <p class="links">
+                  <a href="#">PDF</a>
+                  <a href="#">DOI</a>
+                  <a href="#">Code</a>
+                  <a href="#">BibTeX</a>
+                </p>
+              </article>
+            </li>
+            <li>
+              <article class="pub-item">
+                <h3>
+                  Paper Title Two: Robust Learning under Distribution Shift
+                </h3>
+                <p class="authors">Coauthor C, <strong>Carl Zhang</strong>, Coauthor D</p>
+                <p class="meta">Journal of AI Research, 2025</p>
+                <p class="links">
+                  <a href="#">PDF</a>
+                  <a href="#">DOI</a>
+                  <a href="#">Project</a>
+                </p>
+              </article>
+            </li>
+            <li>
+              <article class="pub-item">
+                <h3>Paper Title Three: Efficient Time-Series Representation Learning</h3>
+                <p class="authors"><strong>Carl Zhang</strong>, Coauthor E</p>
+                <p class="meta">NeurIPS Workshop, 2024</p>
+                <p class="links">
+                  <a href="#">PDF</a>
+                  <a href="#">Poster</a>
+                </p>
+              </article>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="teaching">
+        <div class="container">
+          <h2>教学与服务</h2>
+          <div class="split">
+            <div>
+              <h3>课程</h3>
+              <ul>
+                <li>机器学习导论（2025 秋）</li>
+                <li>数据挖掘（2024 秋）</li>
+              </ul>
+            </div>
+            <div>
+              <h3>学术服务</h3>
+              <ul>
+                <li>Reviewer: NeurIPS, ICML, ICLR</li>
+                <li>TA: 深度学习实践（2023 春）</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-wrap">
+        <div>
+          <h2>联系</h2>
+          <p>Email: your.name@university.edu</p>
+          <p>GitHub: <a href="https://github.com/carlzhang4" target="_blank" rel="noreferrer">@carlzhang4</a></p>
+          <p>Google Scholar: <a href="#">Your Scholar Profile</a></p>
+        </div>
+        <p class="copyright">© 2026 Carl Zhang</p>
+      </div>
+    </footer>
+  </body>
+</html>

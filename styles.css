@@ -1,0 +1,267 @@
+:root {
+  --bg: #f7f8f6;
+  --paper: #ffffff;
+  --ink: #1f2430;
+  --muted: #5a6373;
+  --line: #dfe3ea;
+  --accent: #0f4c5c;
+  --accent-soft: #e7f1f4;
+  --maxw: 980px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: "Source Sans 3", sans-serif;
+  background:
+    radial-gradient(circle at 92% 8%, #e5efef 0%, transparent 35%),
+    radial-gradient(circle at 8% 18%, #eef3e8 0%, transparent 30%),
+    var(--bg);
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Crimson Text", serif;
+  line-height: 1.2;
+  margin: 0 0 0.6rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: min(var(--maxw), calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(6px);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  border-bottom: 1px solid var(--line);
+  z-index: 10;
+}
+
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 64px;
+}
+
+.brand {
+  font-family: "Crimson Text", serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.hero {
+  padding: 4.2rem 0 2.5rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.9fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.subtitle {
+  max-width: 58ch;
+  color: var(--muted);
+}
+
+.hero-actions {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1.3rem;
+}
+
+.btn {
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  padding: 0.52rem 0.92rem;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.profile-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  padding: 1rem 1.1rem;
+}
+
+.profile-card ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.section {
+  padding: 2.7rem 0;
+}
+
+.section-alt {
+  background: color-mix(in srgb, var(--paper) 70%, #f2f5f0);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.narrow {
+  max-width: 70ch;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.7rem;
+}
+
+.section-head p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.pub-list {
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.pub-item {
+  margin-bottom: 1.2rem;
+  padding: 0.8rem 1rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.pub-item h3 {
+  margin-bottom: 0.35rem;
+}
+
+.authors,
+.meta,
+.links {
+  margin: 0.24rem 0;
+}
+
+.meta {
+  color: var(--muted);
+}
+
+.links {
+  display: flex;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.site-footer {
+  padding: 2rem 0 2.3rem;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--line);
+  padding-top: 1.2rem;
+}
+
+.copyright {
+  color: var(--muted);
+  align-self: flex-end;
+}
+
+@media (max-width: 860px) {
+  .hero-grid,
+  .cards,
+  .split {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-wrap {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.7rem 0;
+    gap: 0.5rem;
+  }
+
+  .nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
